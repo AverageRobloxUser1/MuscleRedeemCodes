@@ -1,0 +1,23 @@
+local args = {
+    [1] = "boost200"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("codeRemote"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "gems300"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("codeRemote"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "strength100"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("codeRemote"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "launch250"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("codeRemote"):InvokeServer(unpack(args))
